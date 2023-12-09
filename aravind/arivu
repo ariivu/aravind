@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+           body{
+               background-color: grey;
+           }
+           p{
+               padding: 10px;
+           }
+           #a{
+              border: 2px dashed red ;
+              font-family: Sans-Serif;
+              background-color: white;
+              color:green ;
+           }
+            #b{
+              border: 2px double blue ;
+              font-family:monospace ;
+              background-color: white;
+              color:red ;
+           }
+            #c{
+              border: 2px solid  yellow;
+              border-radius: 10px;
+              font-family:cursive ;
+              background-color: white;
+              color:blue ;
+           }
+            #d{
+              border: 2px groove purple ;
+              font-family:impact ;
+              background-color: white;
+              color:orange ;
+           }
+            #e{
+              border: 2px inset;
+               border-top-color: brown;
+               border-left-color: brown;
+               border-right-color: orange;
+               border-bottom-color: orange;
+              font-family:Comic Sans MS ;
+              color:palegreen ;
+              background-color: white;
+           }
+       </style>
+    </head>
+    <body>
+        <p id="a">Dashed Border-sans-serif-Green color</p>
+        <p id="b">Double Border-monospace-red color</p>
+        <p id="c">Rounded border-cursive-Blue color</p>
+        <p id="d">Groove Border-impact-Orange color</p>
+        <p id="e">Inset border-comic Sans MS-palegreen color</p>
+    </body>
+</html>
